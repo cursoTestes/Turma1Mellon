@@ -68,5 +68,10 @@ namespace TesteVendas
 
             Assert.AreEqual(valorEsperado, retorno);
         }
+        [TestMethod]
+        public void TesteCalculoComissaoVendaComErroMaluco()
+        {
+            Assert.AreEqual(1,2);
+        }
     }
 }
