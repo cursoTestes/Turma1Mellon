@@ -7,7 +7,7 @@ namespace SistemaVendas
 {
     public class CalculadoraComissao
     {
-        public static double CalcularComissao(double valor)
+        public virtual double CalcularComissao(double valor)
         {
             double retorno;
             if (valor <= 10000)
