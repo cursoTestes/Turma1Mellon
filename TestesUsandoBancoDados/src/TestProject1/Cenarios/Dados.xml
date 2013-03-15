@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Schema xmlns="http://tempuri.org/Schema.xsd">
+  <Produto>
+    <Id>1</Id>
+    <Nome>Bombril</Nome>
+  </Produto>
+  <ProdutoId>
+    <NextHi>10</NextHi>
+  </ProdutoId>
+
+  <Venda>
+    <IdVenda>1</IdVenda>    
+    <dataVenda>2011-01-02T13:02:13.000</dataVenda>
+    <valor>100.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>1</IdVendaVendedor>
+    <IdVendedor>1</IdVendedor>
+    <IdVenda>1</IdVenda>
+    <ValorParticipacao>100.00</ValorParticipacao>
+  </VendaVendedor>
+
+  <Venda>
+    <IdVenda>2</IdVenda>
+    <dataVenda>2011-01-02T13:03:03.000</dataVenda>
+    <valor>10.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>2</IdVendaVendedor>
+    <IdVendedor>2</IdVendedor>
+    <IdVenda>2</IdVenda>
+    <ValorParticipacao>10.00</ValorParticipacao>
+  </VendaVendedor>
+
+  <Venda>
+    <IdVenda>20</IdVenda>
+    <dataVenda>2011-01-02T13:03:03.000</dataVenda>
+    <valor>10.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>3</IdVendaVendedor>
+    <IdVendedor>20</IdVendedor>
+    <IdVenda>20</IdVenda>
+    <ValorParticipacao>10.00</ValorParticipacao>
+  </VendaVendedor>
+
+  <Venda>
+    <IdVenda>21</IdVenda>
+    <dataVenda>2011-01-02T13:03:03.000</dataVenda>
+    <valor>190.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>4</IdVendaVendedor>
+    <IdVendedor>20</IdVendedor>
+    <IdVenda>21</IdVenda>
+    <ValorParticipacao>190.00</ValorParticipacao>
+  </VendaVendedor>
+
+  <Venda>
+    <IdVenda>22</IdVenda>
+    <dataVenda>2011-01-02T13:03:03.000</dataVenda>
+    <valor>100.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>5</IdVendaVendedor>
+    <IdVendedor>3</IdVendedor>
+    <IdVenda>22</IdVenda>
+    <ValorParticipacao>50.00</ValorParticipacao>
+  </VendaVendedor>
+
+
+  <VendaVendedor>
+    <IdVendaVendedor>6</IdVendaVendedor>
+    <IdVendedor>4</IdVendedor>
+    <IdVenda>22</IdVenda>
+    <ValorParticipacao>50.00</ValorParticipacao>
+  </VendaVendedor>
+
+
+  <Venda>
+    <IdVenda>23</IdVenda>
+    <dataVenda>2011-01-03T13:03:03.000</dataVenda>
+    <valor>100.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>7</IdVendaVendedor>
+    <IdVendedor>4</IdVendedor>
+    <IdVenda>23</IdVenda>
+    <ValorParticipacao>100.00</ValorParticipacao>
+  </VendaVendedor>
+
+  <Venda>
+    <IdVenda>24</IdVenda>
+    <dataVenda>2012-01-03T13:03:03.000</dataVenda>
+    <valor>450.00</valor>
+  </Venda>
+
+  <VendaVendedor>
+    <IdVendaVendedor>8</IdVendaVendedor>
+    <IdVendedor>4</IdVendedor>
+    <IdVenda>24</IdVenda>
+    <ValorParticipacao>150.00</ValorParticipacao>
+  </VendaVendedor>
+  <VendaVendedor>
+    <IdVendaVendedor>9</IdVendaVendedor>
+    <IdVendedor>3</IdVendedor>
+    <IdVenda>24</IdVenda>
+    <ValorParticipacao>150.00</ValorParticipacao>
+  </VendaVendedor>
+  <VendaVendedor>
+    <IdVendaVendedor>10</IdVendaVendedor>
+    <IdVendedor>2</IdVendedor>
+    <IdVenda>24</IdVenda>
+    <ValorParticipacao>150.00</ValorParticipacao>
+  </VendaVendedor>
+
+</Schema>
